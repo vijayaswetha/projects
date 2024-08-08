@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import 'animate.css';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    max-width: 100%;
+}
+html,body{
+  overflow-x: hidden;
+
+}
+.logo1
+{
+  height: 32px;
+  width: 32px;
+}
+
+
+.main .row
+
+{
+  margin-left: 0;
+}
+
+
+/*global*/
+.foota{
+  text-decoration: none;
+  color: white;
+}
+.foota:hover
+{
+  color: rgb(9, 173, 9);
+}
+
+.refa
+{
+  text-decoration: none;
+  color: rgb(9, 173, 9);
+}
+.refa:hover
+{
+  color: black;
+}
+/*navbar and header*/
+.menu1
+  {
+    background-color:rgb(243, 236, 236); 
+    max-width: 100%;
+  }
+
+.header-top
+{
+    background:rgb(13, 110, 184);
+    height: 35px;
+    color: white;
+    font-size: 14px;
+}
+.header-top-center
+{
+    text-align: center;
+}
+.link1
+{
+    color:rgb(13, 110, 184);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.logo1
+{
+    font-weight: 30px;
+
+}
+.fevi
+{
+    padding: 10px auto;
+    font-weight: 30px;
+
+}
+  
+.navbar-cont {
+    justify-content: space-between;
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+  }
+  .nav-menu li:first-child {
+    position: relative;
+  }
+   
+  .nav-menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+    position: relative;
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color:black; /* Change the text color as needed */
+    padding: 10px;
+    display: block;
+    
+  }
+  
+  .menu-item-has-children:hover .sub-menu {
+    display: block; /* Show the dropdown menu on hover */
+  }
+  
+  .sub-menu {
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color:rgb(245, 242, 242); /* Change the background color as needed */
+    padding: 10px;
+    list-style: none;
+  }
+  .sub-menu .active
+  {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .sub-menu li {
+    margin: 0;
+  }
+  .sub-menu li:first-child
+  {
+    margin: 0;
+  }
+  
+  .sub-menu a {
+    padding: 5px 0;
+  }
+  /* Add this CSS for the navigation button and mobile menu */
+.nav-button {
+  display: none; /* Hide the button by default */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+.nav-menu .active{
+  color: green;
+  font-weight: bold;
+}
+
+
+/*first section*/
+.cont1
+{
+  margin-top: 100px;
+  position: relative;
+  height:80vh;
+  background:url("https://elixiraid.com/wp-content/uploads/2016/09/Hospital-Management-System-1.png") ;
+  background-position: center;
+  background-size: cover;
+  z-index: 3;
+}
+.main-head-cont
+{
+  padding: 50px;
+
+}
+.main-head
+{
+  margin-top: 20px;
+  color:rgb(13, 110, 184);
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.para1
+{
+  font-size: 14px;
+}
+.head1
+{
+  position: relative;
+  background:rgb(13, 110, 184);
+  text-align: center;
+  padding: 10px;
+  font-weight:bold;
+  font-size: 30px;
+  width:400px ;
+  top: 50%; /* Set top to 50% */
+  left: 50%; /* Set left to 50% */
+  transform: translate(-50%, -50%); 
+  border-radius: 50%  ;
+  color: white;
+  z-index: 4;
+  }
+
+.enquirybut
+{
+  position: fixed;
+  rotate: 90deg;
+  background: rgb(9, 173, 9);
+  margin-left: -100px;
+  padding: 10px;
+  
+
+}
+.bookcont
+{
+  display: none;
+  position: relative;
+  top:10px;
+  right: 0;
+  left:80%;
+ 
+}
+.appointbut
+{
+  
+  background: rgb(13, 110, 184);
+  border: none;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.app{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+  /* about cont*/
+  .about-cont
+  {
+    text-align: center;
+    margin:100px auto
+  }
+ 
+  .about-img
+  {
+    max-width: 100%;
+    height: auto; 
+   }
+  .sub-head
+  {
+    font-weight: bold;
+    text-align: center;
+    color: white;  
+    margin-bottom: 50px;
+  
+   
+}
+  .greenbg
+  {
+    margin-bottom: 20px;
+    background: rgb(9, 173, 9);
+    padding: 20px;
+  }
+  /*services section*/
+  .service-cont
+  {
+   padding-top: 100px;
+   padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #f0ecec;
+  }
+.serv-card
+{
+  text-align: center;
+  background:white;
+  height:450px;
+  padding: 0px;
+  margin: 10px auto; 
+}
+
+.serv-img
+{
+    max-width: 100%;
+    height: 300px;
+}
+.serv-details
+{
+  text-align: left;
+  padding: 10px;
+}
+.serv-details a{
+  text-decoration: none;
+  color:rgb(13, 110, 184);
+  padding-top: 30px;
+  }
+.serv-details i{
+  position:absolute;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+/*departmrnts*/
+.dept-cont
+{
+  margin-top: 100px;
+ margin-bottom: 100px;
+}
+
+.dept-head
+{
+text-align: center;
+padding: 30px 0px;
+font-weight: bold;
+color: rgb(13, 110, 184);
+}
+.dept-img
+{
+  width: 100%;
+  height: 300px;
+}
+.dept-datacont
+{
+  background:rgb(13, 110, 184);
+  height: auto;
+  padding: 20px;
+  margin-left: -50px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.dept-data
+{
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+/*blog*/
+.blog-cont
+{
+  background:rgb(146, 188, 220);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.blog-img
+{
+  height:250px;
+}
+.blogcard
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  height: auto;
+  border-radius: 10px;
+}
+.blog-data
+{
+  padding: 10px;
+}
+.blog-head
+{
+  color: rgb(9, 173, 9);
+  font-weight:bold;
+}
+.para2
+{
+  font-size: 14px;
+}
+
+
+/*footer*/
+.footercont
+{
+  background-color:rgb(25, 22, 22); 
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footerhead
+{
+  font-size: 18px;
+  color: rgb(9, 173, 9);
+  
+}
+.footerpara
+{
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+.copyright
+{
+  background:rgb(13, 110, 184);
+  color: white;
+  text-align: center;
+
+}
+#modal-cont
+{
+  position: absolute;
+  display: none;
+  width: 300px;
+  margin: 80px 100px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.modal-back
+{
+
+ background-color:rgb(13, 110, 184);
+}
+.booking-modal
+{
+  margin-top: 10px;
+
+ }
+.modal-head
+{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+}
+#modal-form
+{
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box; 
+}
+#modal-form input
+{
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+#modal-form input[type="text"],
+#modal-form select {
+  margin-bottom: 10px;
+  
+  width: 80%;
+
+}
+
+
+  @media (max-width: 768px) {
+   
+  
+    .navbar-cont {
+      align-items: center;
+  }
+  .nav-menu {
+      padding: 10px 0; /* Adjust as needed for spacing between items */
+  }
+
+    .head1
+    {
+      font-size: 24px;
+      padding: 10px;
+      width: 80%;
+      }
+    
+.dept-datacont
+{
+  background:rgb(13, 110, 184);
+  height: auto;
+  padding: 20px;
+  margin-left: 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dept-img
+{
+  text-align: center;
+
+}
+.bookcont
+{
+  position: relative;
+  top:0%;
+  right: 0;
+  left:30%;
+}
+.footerhead
+{
+  text-align: center;
+}
+.footerpara{
+  text-align: center;
+}
+
+  }
+@media (max-width: 998px) {
+  .nav-button {
+      display: block; 
+      }
+
+  .nav-menu {
+      
+      padding: 20px 10px;
+      display: none; 
+      flex-direction: column;
+      position: absolute;
+      top: 100px; 
+      right: 0;   
+      color: white;  
+      background-color:rgb(243, 236, 236); 
+      z-index: 1; /* Ensure the menu appears above other content */
+  }
+  .nav-menu li {
+    border-bottom: 1px solid #ccc; 
+}
+
+
+  .nav-menu.show-menu {
+      display: flex; /* Show the menu when the "show-menu" class is applied */
+  }
+  .nav-menu li:first-child {
+    position: relative;
+    margin-left: 0;
+  } 
+  .bookcont
+  {
+    display: block;
+  }
+  
+}
+
+ 

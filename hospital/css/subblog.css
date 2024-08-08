@@ -1,0 +1,37 @@
+
+
+.subblog-cont
+{
+    margin-top:100px;
+    padding: 20px;
+    background-color: rgb(229, 236, 229) ;
+}
+.blog-img1
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.blog-head
+{
+  color: rgb(9, 173, 9);
+  font-weight:bold;
+}
+.subblog-para
+{
+    padding: 20px 0px;
+}
+.subblog-para h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.subblog-para h5{
+    font-weight: bold;
+
+    font-size: 18px;
+}
+.subblog-para p{
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,113 @@
+.menu-item-has-children .active{
+    color: green;
+    font-weight: bold;
+  }
+  
+.s-cont
+{
+height: 100%;    
+background-color: lightblue;
+}
+.s-img
+{
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 300px;
+
+ background: url("https://static.bookinghealth.com/uploads/posts/p-2021-02/6017d58f55384.jpg");   
+background-size: cover;
+background-position: center;
+}
+.serv-head
+{
+    
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+.s-head{
+    text-transform: uppercase;
+    padding: 10px; /* Adjust the padding size as needed */
+    display: inline-block;
+    color: rgb(9, 173, 9);
+    text-shadow:black 1px 1px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.service-section
+{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgb(229, 235, 229); ;
+    height: 100%;
+}
+.service-section-head
+{
+    font-size: 35px;
+  color: rgb(13, 110, 184);
+  font-weight: bold;
+  padding-top: 30px; 
+  padding-bottom: 20px;
+  text-align: center;
+}
+.service-section-data
+{
+padding-bottom: 50px;
+padding-top: 50px;
+
+}
+.service-section-data .row{
+    margin-left: 0;
+}
+
+.service-section-img
+{
+    height: 350px;
+    width: 100%;
+    border-top-left-radius: 50px; /* Adjust the value to control the curve */
+    border-bottom-left-radius: 50px; /* Adjust the value to control the curve */
+    }
+.service-section-para
+{
+    background-color: rgb(13, 110, 184);
+    border-top-right-radius: 50px; /* Adjust the value to control the curve */
+    border-bottom-right-radius: 50px; /* Adjust the value to control the curve */
+    font-size: 14px;
+    color: white;
+    padding: 50px;
+    height: 100%;
+    margin: 0 10px;
+}
+.row
+{
+    margin-left: 0;
+}
+
+@media(max-width:768px)
+{
+    .service-section-img
+{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0px; /* Adjust the value to control the curve */
+    border-bottom-left-radius: 0px; /* Adjust the value to control the curve */
+    }
+.service-section-para
+{
+    background-color: rgb(13, 110, 184);
+    border-top-right-radius: 0px; /* Adjust the value to control the curve */
+    border-bottom-right-radius: 0px; /* Adjust the value to control the curve */
+    font-size: 14px;
+    color: white;
+    padding: 50px;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+}
+    

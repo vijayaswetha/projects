@@ -1,0 +1,72 @@
+.menu-item-has-children .active{
+    color: green;
+    font-weight: bold;
+  }
+  .p-cont
+  {
+  height: 100%;    
+  }
+  .p-img
+  {
+    margin-top: 100px;
+    padding-top: 100px;
+   background: url("https://www.continuouscare.io/blog/wp-content/uploads/2017/02/blog-background.png");   
+   height:300px;
+  width: 100%;
+  background-size: cover;
+  background-position:center;
+  }
+  .pedi-head
+  {
+    text-transform: capitalize;
+      margin: 20px 0px;
+      text-align: center;
+  
+  }
+  
+  .p-head{
+      text-transform: uppercase;
+      padding: 10px; /* Adjust the padding size as needed */
+      display: inline-block;
+      color: rgb(9, 173, 9);
+      text-shadow:black 1px 1px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      border-radius: 10px;
+  }
+  /*blog*/
+
+  .blog-cont
+{
+  background:rgb(146, 188, 220);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.blog-img
+{
+  height:250px;
+}
+.blogcard
+{
+  padding: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  height: auto;
+  border-radius: 10px;
+}
+.blog-data
+{
+  padding: 10px;
+}
+.blog-head
+{
+  color: rgb(9, 173, 9);
+  font-weight:bold;
+}
+.para2
+{
+  font-size: 14px;
+}
+

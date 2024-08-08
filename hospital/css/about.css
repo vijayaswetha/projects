@@ -1,0 +1,157 @@
+.nav-menu .active{
+    color: green;
+    font-weight: bold;
+  }
+  
+.p-cont
+{
+height: 100%;    
+}
+.p-img
+{
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 300px;
+
+    background: url("https://aihms.in/blog/wp-content/uploads/2020/04/healthcare1.jpg");   
+    background-size: cover;
+background-position: center;
+margin-bottom: 100px;
+}
+.pedi-head
+{
+  text-transform: capitalize;
+
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+.p-head{
+    text-transform: uppercase;
+    padding: 10px; /* Adjust the padding size as needed */
+    display: inline-block;
+    color: rgb(9, 173, 9);
+    text-shadow:black 1px 1px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+
+
+.first-cont
+{
+height: 50%;    
+}
+.first-img
+{
+width: 100%;
+height:300px;
+background-size: cover;
+background-position: center;
+}
+.first-head
+{
+    
+    padding: 80px 40px;
+    margin: 50px 0px;
+    text-align: left;
+}
+.f-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.f-para
+{
+    font-size: 16px;
+    padding: 10px;
+}
+.about-para
+{
+    font-size: 14px;
+}
+
+.second-cont
+{
+    margin: 50px 0px;
+}
+.third-cont1{
+    background:rgb(235, 240, 235);
+
+
+}
+.third-cont
+{
+    width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.cont-team{
+
+    margin: 50px;
+    background:lightblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.th-head
+{
+    color: rgb(9, 173, 9);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.th-head1
+{
+    color: rgb(9, 173, 9);
+    padding: 0px 10px;
+
+}
+
+.th-img
+{
+    height: 300px;
+}
+.gal-cont
+{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.gal-img
+{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+@media(max-width:768px)
+{
+    .first-head
+{
+   
+    text-align: center;
+}
+.about-para
+{
+    text-align: center;
+}
+.third-cont1{
+    text-align: center;
+
+}
+.service-section-data .row{
+    margin-top:10px;
+}
+
+.gal-cont
+{
+    text-align: center;
+}
+.main .row{
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+}

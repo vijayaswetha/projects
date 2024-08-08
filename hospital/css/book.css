@@ -1,0 +1,164 @@
+  .p-cont
+  {
+  height: 100%;    
+  }
+  .p-img
+  {
+    margin-top: 100px;
+    padding-top: 100px;
+   background: url("https://www.eternalhospital.com/wp-content/02/book-an-appointment.jpg");   
+   height:300px;
+  width: 100%;
+  background-size: cover;
+  background-position:center;
+  }
+  .pedi-head
+  {
+    text-transform: capitalize;
+      margin: 20px 0px;
+      text-align: center;
+  
+  }
+  
+  .p-head{
+      text-transform: uppercase;
+      padding: 10px; /* Adjust the padding size as needed */
+      display: inline-block;
+      color: rgb(9, 173, 9);
+      text-shadow:black 1px 1px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      border-radius: 10px;
+  }
+  /*form*/
+.book1
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background:rgb(13, 110, 184);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.book-cont
+{
+  margin:10px auto;
+}
+.form-head
+{
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+form{
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px 100px;
+  background-color: white;
+  overflow: auto;
+
+}
+.field
+{
+  width: 100%;
+  margin-bottom: 20px;
+  border:none;
+  padding: 0px 15px;
+  color: white;
+}
+input
+{
+  width: 100%;
+  border-radius: 5px 5px;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  background:rgb(13, 110, 184);
+  color: white;
+}
+input[text="submit"]
+{
+  background-color: green;
+}
+select
+{
+  border-radius: 5px;
+  border: none;
+  background:rgb(13, 110, 184);
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+.bok-but
+{
+  border: none;
+  background-color: rgb(9, 173, 9) ;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 100%;
+}
+/*service-hours*/
+.service-hour-cont
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background:rgb(13, 110, 184);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
+.serv-hour-conta
+{
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.serv-hour-head
+{
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.day-list
+{
+  border-radius: 10px;
+
+  margin: 10px 60px;
+  text-align: center;
+  background:rgb(13, 110, 184);
+  list-style: none;
+  font-size: 14px;
+  padding: 10px ;
+  line-height: 3;
+  color: white;
+  display:list-item;
+}
+
+@media(max-width:768px)
+{
+  form{
+ 
+    margin: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    overflow: auto;
+  }
+  .day-list
+{
+  margin: 10px 0px;
+}
+
+}
